@@ -46,6 +46,30 @@ class Home extends Component {
             })
     }
 
+
+    componentDidMount = ( ) => {
+        axios
+        .get('https://jobs.github.com/positions.json?', {
+            params: {
+                description: 'Python',
+                location: 'New York',
+                // full_time: this.state.fulltime
+            }
+        })
+        .then(res =>
+            this.setState({
+                data: res.data,
+                isFetched: false
+            })
+        )
+        .catch(error => {
+            console.log(error)
+        })
+        .finally(() => {
+            this.props.fun(this.state.data)
+        })
+    }
+
     render() {
         if (!this.state.isFetched) {
             return (
@@ -98,19 +122,9 @@ class Home extends Component {
                     </div>
                     <div className='container'>
                         <table className="table table-hover border mb-5">
-                            <thead>
-                                <tr>
-                                    <th scope="col"><h1 className='text-dark'>Feature Jobs </h1></th>
-                                </tr>
-                            </thead>
-                            {/* <tbody>
+                            <tbody>
                                 <AllJobs jobs = {this.state.data} />
-                            </tbody> */}
-                            <thead>
-                                <tr>
-                                    <th scope="col"><h1 className='text-dark'>Hot Searches</h1></th>
-                                </tr>
-                            </thead>
+                            </tbody>
                         </table>
                     </div>
                 </>

@@ -15,7 +15,7 @@ class AllJobs extends Component {
           <table className="table table-hover mb-5">
             <thead>
               <tr>
-                <th scope="col"><h1 className='text-dark'>Showing Results</h1></th>
+                <th scope="col"><h1 className='text-dark'>Jobs</h1></th>
               </tr>
             </thead>
             <tbody>
