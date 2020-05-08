@@ -3,6 +3,7 @@ import { Component } from 'react'
 import axios from 'axios'
 import AllJobs from './AllJobs'
 import { Link } from 'react-router-dom'
+import FeaturedJobs from './FeaturedJobs'
 
 
 class Home extends Component {
@@ -76,8 +77,8 @@ class Home extends Component {
                 <>
                     <div className="container p-5 my-5">
                         <div className="row m-5">
-                            <h1 className='col-7 font-weight-bolder'>Growth on your mind? <br /><p className='text-success ml-2' style={{ fontSize: '20px' }}>Welcome you are on the right place..</p></h1>
-                            <div className="card text-white bg-success mb-3 col-4 offset-1" style={{maxWidth: '18rem'}}>
+                            <h1 className='col-lg-7 col-md-7 col-sm-12 font-weight-bolder'>Growth on your mind? <br /><p className='text-success ml-2' style={{ fontSize: '20px' }}>Welcome you are on the right place..</p></h1>
+                            <div className="card text-white bg-success mb-3 col-lg-4 col-md-4 col-sm-12 offset-1" style={{maxWidth: '18rem'}}>
                                 <div className="card-body">
                                     <h5 className="card-title font-weight-bold">New here?</h5>
                                     <p className="card-text"><Link to='/signup'><button type="button" className="btn btn-dark">
@@ -93,7 +94,7 @@ class Home extends Component {
                         </div>
                         <h2 className='text-muted'><cite>Explore 10000+ Jobs..</cite></h2>
                         <div className="form-row">
-                            <div className="form-group col-md-4" >
+                            <div className="form-group col-lg-4 col-md-4 col-sm-12" >
                                 <label>Job Description :</label>
                                 <input
                                     name='jobTitle'
@@ -104,7 +105,7 @@ class Home extends Component {
                                     placeholder='Job tiltle'
                                 ></input>
                             </div>
-                            <div className="form-group col-md-4 mx-5">
+                            <div className="form-group col-lg-4 col-md-4 col-sm-12 mx-lg-5 mx-md-5">
                                 <label>Location :</label>
                                 <input
                                     name='location'
@@ -115,7 +116,7 @@ class Home extends Component {
                                     placeholder='Location'
                                 ></input>
                             </div>
-                            <div className="form-group col-md-2" style={{ marginTop: '32px' }}>
+                            <div className="form-group col-lg-2 col-md-2 col-sm-2" style={{ marginTop: '32px' }}>
                                 <button type='button' onClick={this.handleClick} className="btn btn-dark">Submit</button>
                             </div>
                         </div>
@@ -123,7 +124,7 @@ class Home extends Component {
                     <div className='container'>
                         <table className="table table-hover border mb-5">
                             <tbody>
-                                <AllJobs jobs = {this.state.data} />
+                                <FeaturedJobs jobs = {this.state.data} />
                             </tbody>
                         </table>
                     </div>

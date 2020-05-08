@@ -16,13 +16,13 @@ function Jobs(props) {
     <>
       <div className='container-fluid m-5'>
         <div className='row'>
-          <div className='col-8'>
+          <div className='col-lg-8 col-md-8 col-sm-12'>
             <h2 className='text-success'>Job Title : <u><strong>{item.title}</strong></u></h2>
             <h4>Location : <u><strong>{item.location}</strong></u></h4>
             <h3><u><strong>Description :</strong></u></h3>
             <p>{div.innerText}</p>
           </div>
-          <div className='col-4'>
+          <div className='col-lg-4 col-md-4 col-sm-12'>
             <h3 className='ml-3'><u><strong>Company details :</strong></u></h3>
             <div className="card m-3" style={{ width: "18rem" }}>
               <img src={item.company_logo} className="card-img-top img-fluid" alt='img' />

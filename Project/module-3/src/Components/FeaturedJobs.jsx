@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { v4 as uuidv4 } from 'uuid';
 
-class AllJobs extends Component {
+class FeaturedJobs extends Component {
   constructor(props) {
     super(props)
   }
@@ -15,7 +15,7 @@ class AllJobs extends Component {
           <table className="table table-hover mb-5">
             <thead>
               <tr>
-                <th scope="col"><h1 className='text-dark'>Showing results</h1></th>
+                <th scope="col"><h1 className='text-dark'>Featured Jobs</h1></th>
               </tr>
             </thead>
             <tbody>
@@ -40,5 +40,5 @@ class AllJobs extends Component {
 
 }
 
-export default AllJobs
+export default FeaturedJobs
 
