@@ -75,10 +75,10 @@ class Home extends Component {
         if (!this.state.isFetched) {
             return (
                 <>
-                    <div className="container p-5 my-5">
-                        <div className="row m-5">
-                            <h1 className='col-lg-7 col-md-7 col-sm-12 font-weight-bolder'>Growth on your mind? <br /><p className='text-success ml-2' style={{ fontSize: '20px' }}>Welcome you are on the right place..</p></h1>
-                            <div className="card text-white bg-success mb-3 col-lg-4 col-md-4 col-sm-12 offset-1" style={{maxWidth: '18rem'}}>
+                    <div className="container p-lg-5 my-lg-5 p-md-5 my-md-5 p-0 m-0">
+                        <div className="row p-lg-5 my-lg-5 p-md-5 my-md-5 p-0 my-3">
+                            <h1 className='col-lg-7 col-md-7 col-sm-12 col-12 font-weight-bolder'>Growth on your mind? <br /><p className='text-success ml-2' style={{ fontSize: '20px' }}>Welcome you are on the right place..</p></h1>
+                            <div className="card text-white bg-success mb-3 col-lg-4 col-md-4 col-sm-12 offset-lg-1 offset-md-1 offset-sm-2 offset-1 d-flex" style={{maxWidth: '18rem'}}>
                                 <div className="card-body">
                                     <h5 className="card-title font-weight-bold">New here?</h5>
                                     <p className="card-text"><Link to='/signup'><button type="button" className="btn btn-dark">
@@ -134,10 +134,10 @@ class Home extends Component {
         else {
             return (
                 <>
-                    <div className="container p-5 my-5">
-                        <div className="row m-5">
-                            <h1 className='col-7 font-weight-bolder'>Growth on your mind? <br /><p className='text-success ml-2' style={{ fontSize: '20px' }}>Welcome you are on the right place..</p></h1>
-                            <div className="card text-white bg-success mb-3 col-4 offset-1" style={{maxWidth: '18rem'}}>
+                    <div className="container p-lg-5 my-lg-5 p-md-5 my-md-5 p-0 m-0">
+                        <div className="row p-lg-5 my-lg-5 p-md-5 my-md-5 p-0 my-3">
+                            <h1 className='col-lg-7 col-md-7 col-sm-12 col-12 font-weight-bolder'>Growth on your mind? <br /><p className='text-success ml-2' style={{ fontSize: '20px' }}>Welcome you are on the right place..</p></h1>
+                            <div className="card text-white bg-success mb-3 col-lg-4 col-md-4 col-sm-12 offset-lg-1 offset-md-1 offset-sm-2 offset-0" style={{maxWidth: '18rem'}}>
                                 <div className="card-body">
                                     <h5 className="card-title font-weight-bold">New here?</h5>
                                     <p className="card-text"><Link to='/signup'><button type="button" className="btn btn-dark">
