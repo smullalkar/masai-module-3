@@ -2,7 +2,7 @@ import React from 'react'
 
 function Signup() {
     return (
-        <div className='col-6 p-5' style={{margin:'auto'}}>
+        <div className='col-lg-4 col-md-4 col-sm-6 col-10 offset-lg-4 offset-md-4 offset-sm-3 offset-1 mt-5'>
             <form>
                 <div className="form-group">
                     <label>Username</label>
