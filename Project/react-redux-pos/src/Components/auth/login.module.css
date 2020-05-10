@@ -1,0 +1,14 @@
+.div {
+    display: flex;
+    margin: auto;
+}
+
+div form{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.margin {
+    margin: 20px;
+}
