@@ -26,7 +26,7 @@ class Home extends Component {
 
     handleClick = (event) => {
         axios
-            .get('https://jobs.github.com/positions.json?', {
+            .get('https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?', {
                 params: {
                     description: this.state.jobTitle.toLowerCase(),
                     location: this.state.location.toLowerCase(),
@@ -50,7 +50,7 @@ class Home extends Component {
 
     componentDidMount = ( ) => {
         axios
-        .get('https://jobs.github.com/positions.json?', {
+        .get('https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?', {
             params: {
                 description: 'Python',
                 location: 'New York',

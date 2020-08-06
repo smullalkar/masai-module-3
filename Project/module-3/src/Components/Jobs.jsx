@@ -14,7 +14,7 @@ function Jobs(props) {
   }
   return (
     <>
-      <div className='container-fluid m-5'>
+      <div className='container-fluid m-lg-5'>
         <div className='row'>
           <div className='col-lg-8 col-md-8 col-sm-12'>
             <h2 className='text-success'>Job Title : <u><strong>{item.title}</strong></u></h2>
