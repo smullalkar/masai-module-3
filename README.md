@@ -13,13 +13,13 @@ Github Jobs API is an application where user can search for jobs opportunities p
 To get started and know better here is the list of the features build inside this application
 
 1.Dashboard where you can for the job based on Title and Location.
-<p> <img src  = "/module-3/public/home.png"> </p>
+<p> <img src  = "/Project/module-3/public/home.png"> </p>
 
 2.Search results after searching for a job.
-<p> <img src  = "/module-3/public/searchresults.png"> </p>
+<p> <img src  = "/Project/module-3/public/searchresults.png"> </p>
 
 3.Details of a particular job after clicking on the title on search results page.
-<p> <img src  = "/module-3/public/job.png"> </p>
+<p> <img src  = "/Project/module-3/public/job.png"> </p>
 
 ## Getting StartedFollow this simple steps to start using this application
 
