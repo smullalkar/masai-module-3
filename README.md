@@ -3,7 +3,7 @@ and github jobs API.
 
 
 ## Overview of The Project:
-Github Jobs API is an application where user can search for jobs opportunities provided various companies across the globe. The data of various jobs i am fetching using github jobs api 'https://jobs.github.com positions.json'
+Github Jobs API is an application where user can search for jobs opportunities provided various companies across the globe. The data of various jobs i am fetching using github jobs api 'https://jobs.githubproject.com positions.json'
 <br>
 <br>
 <a href = "githubjobs.smullalkar.tech">
