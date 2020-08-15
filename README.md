@@ -6,7 +6,7 @@ and github jobs API.
 Github Jobs API is an application where user can search for jobs opportunities provided various companies across the globe. The data of various jobs i am fetching using github jobs api 'https://jobs.githubproject.com positions.json'
 <br>
 <br>
-<a href = "https://githubjobsproject.smullalkar.tech">
+<a href = "https://githubjobsproject.smullalkar.online">
   <button style = "background:red,padding:5px">Demo Link</button>
 </a>
 
